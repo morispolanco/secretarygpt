@@ -54,7 +54,7 @@ st.sidebar.markdown("""
         """)
 
 # tab record audio and upload audio
-tab1, tab2 = st.beta_columns(2)
+tab1, tab2 = st.columns(2)
 
 with tab1:
     audio_bytes = audio_recorder(pause_threshold=300)
